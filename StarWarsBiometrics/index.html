@@ -3,19 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
     <title>Star Wars Biometrics</title>
   </head>
   <body>
     <div class="container">
       <div class="header">
         <h1>Star Wars Biometrics</h1>
-        <input type="text" id="search-character" placeholder="Search character..." />
-        <button type="submit">Search</button>
+        <input
+          type="text"
+          id="search-character"
+          placeholder="Search character..."
+        />
+        <button id="search-button" type="submit">Search</button>
       </div>
 
       <div class="main">
-        <textarea name="output" id="" cols="30" rows="10"></textarea>
+        <textarea name="output" id="character-info" cols="60" rows="10"></textarea>
       </div>
     </div>
+    <script src="./index.js"></script>
   </body>
 </html>
