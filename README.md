@@ -1,5 +1,9 @@
 # Star Wars API and Card API
 
+<img src="https://farahalh.github.io/star-wars-api-and-card-api/demo.png" width="250" height="200">
+
+[Web demo](https://farahalh.github.io/star-wars-api-and-card-api/)
+
 Assignment 10 - Practice calling APIs and presenting data in the DOM.
 
 Theory
