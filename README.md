@@ -1,7 +1,6 @@
-# Assignment-FE-10
- API
+# Star Wars API and Card API
 
-Practice calling APIs and presenting data in the DOM.
+Assignment 10 - Practice calling APIs and presenting data in the DOM.
 
 Theory
 API stands for Application Programming Interface. A web API consists of one or more public endpoints. HTTP protocol is often used, and the endpoint is simply a URI (web address) where the data we want to retrieve is located on the server. The entire system is based on requests and responses. If we send a request to the endpoint https://github.com/orgs/Lexicon-NET-2023/repositories, we receive a response with all the repositories created for the class (feel free to paste this into your browser and see what you get back). If we want to build a website for weather forecasts, we can make requests to an endpoint in MetaWeather's API instead of collecting the data ourselves. Different APIs support different data formats, but JSON and XML are the most common. This allows us to use the resources (data) available on the API regardless of the programming language we are developing with and the language in which the API is built.
@@ -80,7 +79,7 @@ b. Check the documentation to see how to extract the URL of the card image from 
 c. Use createElement, setAttribute, innerHTML, and appendChild to create an image element, set its src attribute, clear the div, and add the image element to it.
 Add an event listener that listens to the button and executes the above function on click.
 
-Extra
+Extra:
 Build a card game :) 
 Consult the API documentation. 
 You can choose what you want to build. Maybe a simple Blackjack game?
